@@ -1,0 +1,14 @@
+---
+title: "Tools for reproducable research course"
+author: "Talya D. Hackett"
+date: "24 May 2019"
+output: html_document
+---
+
+Create a new project and ask before saving workspace between sessions. Will open up a new project document and restart R. Only need to do once at the start of a new project. 
+```{r project setup, eval=FALSE}
+#create new project file
+usethis::create_project(path = "Oxford/R/R courses/Tools for reproducable research/")
+usethis::use_blank_slate(scope = "project")
+```
+
